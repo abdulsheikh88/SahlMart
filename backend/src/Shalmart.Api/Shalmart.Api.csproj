@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.*" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shalmart.SharedKernel\Shalmart.SharedKernel.csproj" />
+    <ProjectReference Include="..\Shalmart.Modules.Identity\Shalmart.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Shalmart.Modules.Catalog\Shalmart.Modules.Catalog.csproj" />
+    <ProjectReference Include="..\Shalmart.Modules.Inventory\Shalmart.Modules.Inventory.csproj" />
+    <ProjectReference Include="..\Shalmart.Modules.Orders\Shalmart.Modules.Orders.csproj" />
+    <ProjectReference Include="..\Shalmart.Modules.Payments\Shalmart.Modules.Payments.csproj" />
+  </ItemGroup>
+</Project>
